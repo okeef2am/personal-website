@@ -34,30 +34,68 @@ p.text {
 }
 
 p.title {
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
-    padding: 1.5em;
+    padding: 4vh;
     font-size: 3vw; 
 }
 
-span{
-    color: white;
+img.aboutme {
+    max-width: 40vw;
+    max-height: 70vh;
+    display: block;
+    margin-right: 5vw;
+    padding-left: 5vw;
 }
 
-img.aboutme {
-    width: 30vw;
-    display: inline-block;
-    vertical-align: left;
+div.aboutme {
+    background-color: #2F866C;
+    height: 100vh;
+}
+
+div.aboutme-content {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) horizontally */
+    align-items: center;
+    padding: 20px; /* Adjust as needed */
+}
+
+div.aboutme-wrapper {
+    width: 60%;
+    text-align: left;
+    color: #fff;
+    font-size: 1.75vw;;
 }
 
 div.card {
     display: inline-block;
     background-color: #2F866C;
     justify-content: center;
+    height: 70vh;
 }
 
-div.aboutme {
-    background-color: #2F866C;
-
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
+
+.skills-cards {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    height: 100vh;
+}
+
+.projects{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
