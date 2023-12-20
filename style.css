@@ -50,7 +50,7 @@ p.title {
 
 div.aboutme {
     background-color: #2F866C;
-    height: 100vh;
+    height: 150vh;
 }
 
 div.aboutme-content {
@@ -61,10 +61,15 @@ div.aboutme-content {
 }
 
 div.aboutme-wrapper {
-    width: 60%;
     text-align: left;
     color: #fff;
     font-size: 1.75vw;;
+}
+
+div.aboutme-intro {
+    font-size: 3vw;
+    font-family: "Papyrus", Fantasy;
+    padding-bottom: 1.5vw;
 }
 
 div.card {
